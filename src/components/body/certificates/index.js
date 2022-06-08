@@ -5,7 +5,7 @@ import './certificate.css'
 import Separator from '../../common/separator';
 import { CertificateData } from '../../data/certificates';
 function Certificate() {
-  const datalength = CertificateData.length;
+  
   const data = CertificateData;
   const [index,setActiveStep] =React.useState(0);
   const goToNextPicture = () => {
