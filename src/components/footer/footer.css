@@ -1,0 +1,25 @@
+.footer {
+    padding:12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px
+    
+}
+.credits {
+    padding:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+.divider {
+    font-size: 18px;
+    font-weight: 600;
+}
+.cred {
+    text-decoration:none;
+    color: black;
+}
