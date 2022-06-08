@@ -1,0 +1,19 @@
+.Socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialap {
+    padding: 6px;
+    cursor: pointer;
+    margin: 6px;
+}
+.icons {
+    height:  48px;
+}
+@media only screen and (max-width: 720px){
+    .icons {
+        height: 32px;
+    }
+
+}
