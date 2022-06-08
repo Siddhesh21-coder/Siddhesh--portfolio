@@ -9,7 +9,7 @@ function Socialmedia() {
             return(
                 <a href={item.link}>
                 <div className='socialap'>
-                    <img src={item.icon} className='icons' />
+                    <img src={item.icon} alt={item.link} className='icons' />
 
                 </div>
                 </a>

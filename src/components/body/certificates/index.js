@@ -7,9 +7,7 @@ import { CertificateData } from '../../data/certificates';
 function Certificate() {
   
   const data = CertificateData;
-  const [index,setActiveStep] =React.useState(0);
-  const goToNextPicture = () => {
-    setActiveStep((prevActivStep) => prevActivStep+1); };
+
   
   return (
     <div className='certificate'>
@@ -20,7 +18,7 @@ function Certificate() {
          {data.map((item, index)=> (
             <div className="each-slide" key={index}>
               <div className='cert'>
-                <img src={item.img} className='certimg' />
+                <img src={item.img} className='certimg' alt={item.name}/>
                 <label className='certname'>{item.name}</label>
               </div>
             </div>
