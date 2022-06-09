@@ -8,16 +8,16 @@ function Mobile({menut, setmenut}) {
       </div>
       <div className='mobopt'>
       <div className='mobmenu'>
-        <a href='#project'><i class="icon ion-md-laptop iconstyle"></i> Project</a>
+        <a href='#project' onClick={() =>setmenut(!menut)}><i class="icon ion-md-laptop iconstyle"></i> Project</a>
       </div>
       <div className='mobmenu'>
-        <a href='#skills'><i class="icon ion-md-code iconstyle"></i> Skills</a>
+        <a href='#skills' onClick={() =>setmenut(!menut)}><i class="icon ion-md-code iconstyle"></i> Skills</a>
       </div>
       <div className='mobmenu'>
-        <a href="#certificates"><i class="icon ion-md-trophy iconstyle"></i> Certificates</a>
+        <a href="#certificates" onClick={() =>setmenut(!menut)}><i class="icon ion-md-trophy iconstyle"></i> Certificates</a>
       </div>
       <div className='mobmenu'>
-        <a href='#contact'><i class="icon ion-md-contact iconstyle"></i> Contact</a>
+        <a href='#contact' onClick={() =>setmenut(!menut)}><i class="icon ion-md-contact iconstyle"></i> Contact</a>
       </div>
       </div>
     </div>
