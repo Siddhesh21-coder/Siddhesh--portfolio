@@ -39,4 +39,24 @@ export const CertificateData = [
         name:'Design Thinking',
         img: require('../../assets/certificates/design.jpg'),
     },
+    {
+        id: 8,
+        name:'Organiser of Revelation',
+        img: require('../../assets/certificates/organiserand.png'),
+    },
+    {
+        id: 9,
+        name:'Operations Member of Android Club',
+        img: require('../../assets/certificates/newandroid.png'),
+    },
+    {
+        id: 10,
+        name:'5 days Linux Workshop',
+        img: require('../../assets/certificates/Linux.jpg'),
+    },
+    {
+        id: 11,
+        name:'Machine Learning Workshop',
+        img: require('../../assets/certificates/ml-workshop.jpg'),
+    },
 ]
